@@ -1,4 +1,5 @@
 import requests
+import time
 from colorama import init, Fore, Style
 
 init()
@@ -22,14 +23,25 @@ def get_bitcoin_price():
 
 def main():
     print("⏳ Connecting to the Global Financial Network...")
-    
-    price = get_bitcoin_price()
-    
-    if price == "Error":
-        print(Fore.RED + "❌ Failed to fetch data." + Style.RESET_ALL)
-    else:
-        # 5. Display the Prize
-        print(Fore.GREEN + f"💰 Current Bitcoin Price: ${price}" + Style.RESET_ALL)
+    print("🔴 Press Ctrl + C to stop the program.\n")
+
+    # THE INFINITE LOOP
+    while True:
+        price = get_bitcoin_price()
+        
+        if price == "Error":
+            print(Fore.RED + "❌ Failed to fetch data. Retrying in 30s..." + Style.RESET_ALL)
+        else:
+            # 5. Display the Prize
+            print(Fore.GREEN + f"💰 Current Bitcoin Price: ${price}" + Style.RESET_ALL)
+        
+        # THE SLEEP PROTOCOL (To avoid getting blocked)
+        print("💤 Sleeping for 30 seconds...")
+        time.sleep(30)
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except KeyboardInterrupt:
+        # This handles the Ctrl+C gracefully
+        print(Fore.YELLOW + "\n🛑 Program stopped by user. Goodbye, Architect." + Style.RESET_ALL)
