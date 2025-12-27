@@ -4,6 +4,21 @@
 
 ---
 
+## 💱 Day 6: Global Currency Converter
+**Status:** ✅ Deployed | **Tech:** Python, API, Math
+
+A universal converter that uses a "Cross-Rate" formula to swap between any two world currencies.
+* **Smart Math:** Calculates `(Amount / From_Rate) * To_Rate` to bridge currencies.
+* **Safety:** Auto-detects network failures and prevents crashes.
+* **User-Friendly:** Loops until valid currency codes are entered.
+
+**Usage:**
+```bash
+python day06_converter.py
+
+
+----
+
 ## 🪙 Day 6: Bitcoin ROI Calculator
 **Status:** ✅ Deployed
 
