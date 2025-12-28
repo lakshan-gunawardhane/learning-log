@@ -19,6 +19,7 @@ A CLI financial tool that calculates real-time Net Worth of crypto assets.
 **Usage:**
 ```bash
 python day07_portfolio.py bitcoin 0.5 ethereum 10
+```
 
 ## 🛡️ Day 7: Web Sentinel
 **Status:** ✅ Deployed | **Tech:** Python, Sys, Requests
@@ -43,7 +44,7 @@ A universal converter that uses a "Cross-Rate" formula to swap between any two w
 ```bash
 python day06_converter.py
 
-
+```
 ----
 
 ## 🪙 Day 6: Bitcoin ROI Calculator
