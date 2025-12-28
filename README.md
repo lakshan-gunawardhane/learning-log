@@ -1,12 +1,15 @@
 # 👨‍💻 Lakshan's Learning Log (2025)
 
 **Goal:** Become a Chief AI Architect ($1,000/hr) by 2030.
-
+---
+**Quick Links:**
+[💼 Day 7: Crypto Portfolio](#-day-7-bonus-crypto-portfolio-manager) • [🛡️ Day 7: Web Sentinel](#-day-7-web-sentinel) • [💱 Day 6: Currency Converter](#-day-6-global-currency-converter)
+---
 ---
 
 
 ## 💼 Day 7 (Bonus): Crypto Portfolio Manager
-**Tech:** Python, API, Sys Arguments, Math
+**Status:** ✅ Deployed | **Tech:** Python, API, Sys, Math
 
 A CLI financial tool that calculates real-time Net Worth of crypto assets.
 * **Smart Input:** Reads pairs of data (Coin + Amount) directly from the terminal.
