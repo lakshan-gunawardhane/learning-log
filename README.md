@@ -4,6 +4,19 @@
 
 ---
 
+
+## 💼 Day 7 (Bonus): Crypto Portfolio Manager
+**Tech:** Python, API, Sys Arguments, Math
+
+A CLI financial tool that calculates real-time Net Worth of crypto assets.
+* **Smart Input:** Reads pairs of data (Coin + Amount) directly from the terminal.
+* **Logic:** Uses `range(start, stop, step)` to process inputs in pairs.
+* **Live Data:** Fetches real-time prices via the CoinGecko API.
+
+**Usage:**
+```bash
+python day07_portfolio.py bitcoin 0.5 ethereum 10
+
 ## 🛡️ Day 7: Web Sentinel
 **Status:** ✅ Deployed | **Tech:** Python, Sys, Requests
 
