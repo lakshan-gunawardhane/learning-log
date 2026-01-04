@@ -1,4 +1,4 @@
-# 👨‍💻 Lakshan's Learning Log (2025)
+# 👨‍💻 Lakshan's Learning Log (2025)  Renamed to Beginner Practice Log
 
 **Goal:** Become a Chief AI Architect ($1,000/hr) by 2030.
 ---
